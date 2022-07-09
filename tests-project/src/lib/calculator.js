@@ -1,10 +1,10 @@
 module.exports.sum = (num1, num2) => {
-  const int1 = parseInt(num1, 10);
-  const int2 = parseInt(num2, 10);
+  const number1 = parseInt(num1, 10);
+  const number2 = parseInt(num2, 10);
 
-  if (Number.isNaN(int1) || Number.isNaN(int2)) {
+  if (Number.isNaN(number1) || Number.isNaN(number2)) {
     throw new Error("Check your numbers");
   }
 
-  return +num1 + +num2;
+  return +number1 + +number2;
 };
